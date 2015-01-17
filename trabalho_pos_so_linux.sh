@@ -9,4 +9,7 @@ done
 
 time ls -la
 
+for (( i = 1; i <= 10000; i++ )); do
+        time cat aquivo_.$i;
+done
 
